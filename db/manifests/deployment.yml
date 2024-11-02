@@ -34,7 +34,7 @@ spec:
               key: MYSQL_USER
         - name: MYSQL_PASSWORD
           valueFrom:
-            secretRef:
+            secretKeyRef:
               name: db-secret
               key: MYSQL_PASSWORD
         ports:
