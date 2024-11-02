@@ -3,8 +3,7 @@ kind: Service
 metadata:
   name: wp-service
   namespace: wp-namespace
-specs:
-
+spec:
   selector:
     app: wordpress-app
   ports:
