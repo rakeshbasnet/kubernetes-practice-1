@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: wp-service
+  namespace: wp-namespace
+specs:
+  selector:
+    app: wordpress-app
+  ports:
+    - port: 80
+      targetPort: 80
