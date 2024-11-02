@@ -19,7 +19,7 @@ spec:
           env:
           - name: WORDPRESS_DB_HOST
             valueFrom:
-                configMapKeyRef:
+              configMapKeyRef:
                 name: wp-config
                 key: WORDPRESS_DB_HOST
           - name: WORDPRESS_DB_USER
